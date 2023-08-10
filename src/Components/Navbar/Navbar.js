@@ -70,7 +70,7 @@ function Navbar() {
             <div className="left-topbar-container">
                 {/* <button id="top-bar-ham-menu-btn" className="icon-btn"><i className="fa fa-bars" aria-hidden="true"></i></button> */}
                 <Link to="/">
-                    <h2 className="top-bar-brand-name">GET OUT</h2>
+                    <h2 className="top-bar-brand-name">City Events</h2>
                 </Link>
                 {
                     location.pathname==="/shop" && 
@@ -78,7 +78,7 @@ function Navbar() {
                         <div className="search-bar">
                             <input 
                                 className="search-bar-input" 
-                                placeholder="Search"
+                                placeholder="Search Event"
                                 value={searchBarTerm}
                                 onChange={event=>setSearchBarTerm(event.target.value)}
                             />

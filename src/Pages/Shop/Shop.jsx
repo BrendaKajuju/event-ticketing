@@ -55,7 +55,7 @@ function Shop(props) {
         //Redo api call to get data
         try {
           (async () => {
-            const productsAvailableData = await axios.get('https://bookztron-server.vercel.app/api/home/products')
+            const productsAvailableData = await axios.get('https://upcoming-events-4zwb.onrender.com/productsList')
             dispatchSortedProductsList({type:"ADD_ITEMS_TO_PRODUCTS_AVAILABLE_LIST", payload: [...productsAvailableData.data.productsList] })
           }) ()
         }

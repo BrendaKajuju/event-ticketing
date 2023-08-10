@@ -45,7 +45,7 @@
 .search-bar-input {
   outline: none;
   font-family: inherit;
-  color: var(--royal-blue);
+  color: #A560D3;
   font-size: 16px;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .top-bar button:active {
-  background-color: rgb(54, 99, 146);
+  background-color:#A560D3;
   background-size: 100%;
   transition: background 0s;
 }
